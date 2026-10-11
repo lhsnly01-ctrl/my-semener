@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الطالب : علي حسن علي | السمنرات الجامعية</title>
+<meta name="description" content="مكتبة السمنرات الجامعية لطالب علوم الأمن السيبراني - جامعة المستقبل">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="container nav">
+    <div class="logo">
+      <span class="shield-icon"></span>
+      <strong>علي حسن علي</strong>
+    </div>
+    <span class="nav-badge">علوم الأمن السيبراني</span>
+  </nav>
+  
+  <div class="container hero">
+    <div class="hero-content">
+      <h1>مكتبة السمنرات الأكاديمية</h1>
+      <p class="subtitle">طالب علوم الأمن السيبراني — كلية العلوم — جامعة المستقبل</p>
+      <p class="lead">منصة شخصية منظمة لاستعراض ومتابعة السمنرات والبحوث الجامعية المكلف بها من الأساتذة.</p>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="stats" aria-label="إحصائيات">
+    <div class="stat"><span id="statTotal">0</span><small>إجمالي السمنرات</small></div>
+    <div class="stat"><span id="statAvail">0</span><small>المتاحة للقراءة</small></div>
+  </section>
+
+  <section id="seminars">
+    <h2>السمنرات الجامعية</h2>
+    <div class="tools">
+      <input id="search" type="search" placeholder="ابحث بالعنوان أو الكلمة المفتاحية..." aria-label="بحث">
+      <div id="filters" class="filters" role="group" aria-label="التصنيفات"></div>
+    </div>
+    <div id="grid" class="grid"></div>
+    <p id="empty" class="empty" hidden>لا توجد نتائج مطابقة.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>علي حسن علي</p>
+  <p>جامعة المستقبل — كلية العلوم — علوم الأمن السيبراني</p>
+</footer>
+
+<script src="js/seminars.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
